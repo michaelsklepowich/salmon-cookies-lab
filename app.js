@@ -40,8 +40,7 @@ var firstAndPike = {
       }
     }
     return salesArray;
-
-
+    
   },
   render: function() {
     var ulEl = document.getElementById('firstAndPike');
