@@ -9,7 +9,7 @@
 // Akli               2         16         4.6
 
 var totalCookies = 0;
-var hoursOperation = ['6am: ', '7am: ', '8am: ', '9am: ', '10am: ', '11am: ', '12pm: ', '1pm: ', '2pm: ', '3pm: ', '4pm: ', '5pm: ', '6pm: ', '7pm: ', '8pm: '];
+var hoursOperation = ['6am: ', '7am: ', '8am: ', '9am: ', '10am: ', '11am: ', '12pm: ', '1pm: ', '2pm: ', '3pm: ', '4pm: ', '5pm: ', '6pm: ', '7pm: ', '8pm: ', 'Total: '];
 
 var firstAndPike = {
   minCust: 23,
@@ -41,6 +41,17 @@ var firstAndPike = {
     }
     return salesArray;
 
-  }
 
+  },
+  render: function() {
+    var ulEl = document.getElementById('firstAndPike');
+    var SalesList = this.salesPerHour();
+    for (var i = 0; i < SalesList.length; i++) {
+      var liEl = document.createElement('li');
+      liEl.textContent = hoursOperation[i] + SalesList[i];
+      ulEl.appendChild(liEl);
+    }
+  },
 }
+
+//firstAndPike.render()
