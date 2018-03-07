@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+#cookiesTable {
+  border-style: ridge;
+  border-color: salmon;
+  border-width: 10px;
+
+}
+
+.storeNameCell {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-style: inset;
+  border-width: 3px;
+  border-color: white;
+}
+
+.cookieHourCell {
+  margin: 5px;
+  padding: 5px;
+  border-style: inset;
+  border-width: 2px;
+  border-color: white;
+}
+
+.tableHeaderRow {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-style: outset;
+  border-color: white;
+  border-width: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
