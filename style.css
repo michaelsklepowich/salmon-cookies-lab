@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 72%;
+  text-align: center;
+  color: salmon;
+  background-color: #400000;
+}
+nav li {
+  border-radius: 25px;
+  width: 100px;
+  list-style-type: none;
+  font-size: 10px;
+  color: white;
+  border: none;
+  background-color: salmon;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#cookiesTable {
+  border-style: ridge;
+  border-color: salmon;
+  border-width: 10px;
+
+}
+
+.storeNameCell {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-style: double;
+  border-width: 3px;
+  border-color: black;
+}
+
+.cookieHourCell {
+  margin: 5px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.tableHeaderRow {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-style: outset;
+  border-color: black;
+  border-width: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#storeForm {
+  /* border-style: ridge;
+  border-color: salmon;
+  border-width: 3px; */
+}
+
+form button {
+  background-color: salmon;
+}
+
+#middlePart {
+  margin: 30px;
+  width: 100%;
+  text-align: left;
+  display: inline;
+}
+
+#locations {
+  float: left;
+  font-size: 30px;
+  width: 200px;
+}
+
+#makeThisFontSmaller {
+  font-size: 20px;
+}
